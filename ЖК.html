@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>ЖК на Невском</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta name="viewport" content="width=device-width">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      <!-- Подключаем jQuery -->
+			<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+			<!-- Подключаем слайдер Slick -->
+			<script src="js/slick.min.js"></script>
+			<!-- Подключаем файл скриптов -->
+			<script src="js/script.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                  <span></span>
+                </label>
+            
+                <ul class="menu__box">
+                  <li><a class="menu__item" href="#">О компании</a></li>
+                        <li><a class="menu__item" href="#">Новости</a></li>
+                        <li><a class="menu__item" href="#">Документы</a></li>
+                        <li><a class="menu__item" href="#">Контакты</a></li>
+                </ul>
+              </div> 
+    <header class='header'>
+        <a href="#dialog" name="modal">Мебель</a>
+
+        <!-- Само окно -->
+        <div id="boxes">  
+        <div id="dialog" class="window"> Мебель
+        <div class="top"><a href="#" class="link close">Закрыть</a></div>
+        <div class="content">Позвоните по нашему телефону и мы предложим вам лучшую мебель или перейдите по ссылке https://mebelrussian.ru</div>
+        </div>
+        </div>
+        
+        <!-- Маска, затемняющая фон -->
+        <div id="mask"></div>
+        <div class='container'>
+            <div class='header-line'>
+                <div class='header-logo'>
+                    ЖК на <b>Невском</b>
+                </div>
+                
+                <nav class='nav'>
+                    <a class='nav-item' href="#">О компании</a>
+                    <a class='nav-item' href="#">Новости</a>
+                    <a class='nav-item' href="#">Документы</a>
+                    <a class='nav-item' href="#">Контакты</a>
+                </nav> 
+                <div class="phone">
+                    <div class="phone_text"><b>+7 982 45-22-67</b></div>
+                </div>
+                <div class="time">
+                    <div class="time_text">Пн-Пт. с 8:00 до 19:00</div>
+                </div>
+                <div class="phone_img">
+                    <div class="img"><img src="Button.svg" alt="" height="40" width="40"></div>
+                </div>   
+            </div> 
+        </div>  
+    </header>
+    <section class="header2">
+            <div class="text">
+                <h4>Доступные квартиры <br> от 1,6 млн. руб. в Рыбинске</h4>
+            </div>
+
+            <div class="text1">
+                Сдача дома: декабрь 2021 год
+            </div>
+            <div class="btn">
+                <a class="button" data-toggle="tooltip" title="Квартира" href="#">Выбрать квартиру</a>
+                <script>
+                    $(document).ready (function (){
+                      $('[data-toggle="tooltip"]').tooltip ();
+                    });
+                  </script>
+            </div>
+            <div class="btn1">
+                <a class="button1" data-toggle="tooltip" title="Консультация" href="form/index.html">Получить консультацию</a>
+            </div>
+            <div class="img1">
+                <img src="Photo1.jpg" alt="" class="ig1" height="700px" width="500px">  
+            </div>
+    </section>
+    <section class="section">
+        <div class="text2">
+            Преимущества жизни в ЖК “Возрождение”
+        </div>
+        <div class="framew">
+            <div class="framer">
+                <img src="Frame.jpg" class="fr" alt="">
+            </div>
+            <div class="framer1">
+                <img src="Frame1.jpg" class="fr" alt="">
+            </div>
+            <div class="framer2">
+                <img src="Frame2.jpg" class="fr" alt="">
+            </div>
+            <div class="framer3">
+                <img src="Frame3.jpg" class="fr" alt="">
+            </div>
+            <div class="framer4">
+                <img src="Frame4.jpg" class="fr" alt="">
+            </div>
+            <div class="framer5">
+                <img src="Frame5.jpg" class="fr" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="section1">
+        <div class="text3">
+            Инфраструктура и расположение
+        </div>
+        <div class="map">
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A47bd3ab291457cbc302ac8f5e2bf020048d70b6ea3f47028b6e9b9293f2f36c5&amp;width=1925&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
+    </section>
+    <section class="section2">
+        <div class="text4">
+            Планировка квартир
+        </div>
+        <div class="cont">
+            <div class="imeg">
+                <img src="Image.jpg" alt="" class="c">
+            </div>
+            <div class="cont2">
+                <div class="cont3">
+                    <div class="bn">
+                        <a class="bo" href="#">1-комн.</a>
+                    </div>
+                    <div class="bn2">
+                        <a class="bo1" href="#">2-комн.</a>
+                    </div>
+                </div>
+                <div class="n1">
+                    Однокомнатные квартиры от 23 м^2
+                </div>
+                <div class="n2">
+                    от 5 400 000 ?
+                </div>
+                <div class="n3">
+                    <a class="bt1" data-toggle="tooltip" href="#">Подобрать квартиру</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section3">
+        <div class="text5">
+            Галерея наших фото
+        </div>
+        <div class="wrapper">
+           <div class="slider">
+            <div class="slider__item filter">
+                <img src="img/Photo (2).jpg" class="gal" alt="">
+            </div>
+            <div class="slider__item">
+                <img src="img/Photo (3).jpg" class="gal" alt="">
+            </div>
+            <div class="slider__item filter">
+                <img src="img/Photo (4).jpg" class="gal" alt="">
+            </div>
+            <div class="slider__item">
+                <img src="img/Photo (5).jpg" class="gal" alt="">
+            </div>
+            <div class="slider__item filter">
+                <img src="img/Photo (6).jpg" class="gal" alt="">
+            </div>
+            <div class="slider__item">
+                <img src="img/Photo (7).jpg" alt="">
+            </div>
+            <div class="slider__item filter">
+                <img src="img/Photo (8).jpg" alt="">
+            </div>
+            </div>
+        </div>
+        <div class="text6">
+            Как купить?
+        </div>
+    </section>
+    <section class="section4">    
+        <div class="questions">
+            <div class="capital">
+                <div class="i1">
+                    <img src="Icon (3).svg" alt="">
+                </div>
+                <div class="zag1">
+                    <b>Материнский капитал</b>
+                </div>
+                <div class="t1">
+                    Материнский капитал и другие субсидии в качестве первоначального взноса при покупке жилья в ипотеку или части стоимости квартиры.
+                </div>
+            </div>
+            <div class="impot">
+                <div class="i2">
+                    <img src="Icon (4).svg" alt="">
+                </div>
+                <div class="zag2">
+                    <b>В импотеку</b>
+                </div>
+                <div class="t2">
+                    Специальные ставки некоторых категорий граждан: многодетных и военных.
+                </div>
+            </div>
+            <div class="oplata">
+                <div class="i3">
+                    <img src="Icon (5).svg" alt="">
+                </div>
+                <div class="zag3">
+                    <b>100% оплата</b>
+                </div>
+                <div class="t3">
+                    Принимают оплату по безналичному расчету.
+                </div>
+            </div>
+            <div class="ques">
+                <div class="zag4">
+                    <b>Есть вопросы?</b>
+                </div>
+                <div class="t4">
+                    Закажите бесплатную консультацию<br> или звоните за номером: <b>+7 982 45-22-67</b>
+                </div>
+                <div class="bn4" data-title="Консультация">
+                    <a class="bo2" href="form/index.html">Заказать консультацию</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section5">
+        <div class="text7">
+            Отзывы наших клиентов
+        </div>
+        <div class="wrapper">
+            <div class="slider">
+             <div class="slider__item filter">
+                 <img src="Frame (12).jpg" class="ot" alt="">
+             </div>
+             <div class="slider__item">
+                 <img src="Frame (12).jpg" class="ot" alt="">
+             </div>
+             <div class="slider__item filter">
+                 <img src="Frame (12).jpg" class="ot" alt="">
+             </div>
+             <div class="slider__item filter">
+                <img src="Frame (12).jpg" class="ot" alt="">
+            </div>
+            <div class="slider__item filter">
+                <img src="Frame (12).jpg" class="ot" alt="">
+            </div>
+            <div class="slider__item filter">
+                <img src="Frame (12).jpg" class="ot" alt="">
+            </div>
+            </div>
+        </div>
+    </section>
+    <section class="section6">
+        <div class="text8">
+            Наши партнеры
+        </div>
+        <div class="partners">
+            <div class="partn1">
+                <a href="https://www.vtb.ru"><img src="Frame6.jpg" class="vtb" alt=""></a>
+            </div>
+            <div class="partn2">
+                <a href="https://www.sberbank.ru/ru/person"> <img src="Frame7.jpg" class="vtb" alt=""></a>
+            </div>
+            <div class="partn3">
+                <a href=""> <img src="Frame8.jpg" class="vtb" alt="vtb"></a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="foot1">
+            <div class="a1">
+                ЖК на <b>Невском</b>
+            </div>
+            <div class="al1">
+                <b>Остались вопросы?</b><br>Закажите бесплатную консультацию 
+            </div>
+            <div class="bn1">
+                <a class="but1" href="form/index.html">Заказать консультацию</a>
+            </div>
+        </div>
+        <hr>
+        <div class="foot2">
+            <div class="a2">
+                Телефон:<br><b>+7 982 45-22-67</b> 
+            </div>
+            <div class="a3">
+                Ел.почта:<br><b>vozrojdenie@yandex.ru</b> 
+            </div>
+            <div class="a4">
+                Адрес офиса:<br><b>Ярославская обл. Ярославль, Почтовая улица 12/2</b> 
+            </div>
+            <div class="a5">
+                Адрес обекта:<br><b>г. Рыбинск, ул. Н. Невского, уч.33, уч. 35</b> 
+            </div>
+        </div>
+        <hr>
+        <div class="foot3">
+            <div class="a6">
+                <a href="#" class="po">Политика конфиденциальности</a>
+            </div>
+            <div class="a7">
+                <a href="#" class="do">Документы</a>
+            </div>
+            <div class="a8">
+                <a href="#"> <img src="Social/Vector.svg" class="soc" alt=""></a>
+            </div>
+            <div class="a9">
+                <a href="#"><img src="Social/Vector1.svg" class="soc" alt=""></a>
+            </div>
+            <div class="a10">
+                <a href="#"><img src="Social/Vector2.svg" class="soc" alt=""></a>
+            </div>
+        </div>
+        <a href="#dialog" name="modal">Вызов модального окна</a>
+
+<!-- Само окно -->
+<div id="boxes">  
+<div id="dialog" class="window"> Текст модального окна
+<div class="top"><a href="#" class="link close"/>Закрыть</a></div>
+<div class="content">Текст в модальном окне.</div>
+</div>
+</div>
+
+<!-- Маска, затемняющая фон -->
+<div id="mask"></div>
+    </footer>
+    <div id="button-up">
+        <img src="Up button.svg" alt="up">
+    </div>
+    <script>$(function() {
+
+        $(window).scroll(function() {
+        
+        if($(this).scrollTop() != 0) {
+        
+        $("#button-up").fadeIn();
+        
+        } else {
+        
+        $("#button-up").fadeOut();
+        
+        }
+        
+        });
+        
+        $("#button-up").click(function() {
+        
+        $("html, body").animate({scrollTop: 0}, 800);
+        
+        });
+        
+        });</script>
+        
+        <script>
+            $(document).ready(function() {   
+                $('a[name=modal]').click(function(e) {
+                e.preventDefault();
+                var id = $(this).attr('href');
+                var maskHeight = $(document).height();
+                var maskWidth = $(window).width();
+                $('#mask').css({'width':maskWidth,'height':maskHeight});
+                $('#mask').fadeIn(1000); 
+                $('#mask').fadeTo("slow",0.8); 
+                var winH = $(window).height();
+                var winW = $(window).width();
+                $(id).css('top',  winH/2-$(id).height()/2);
+                $(id).css('left', winW/2-$(id).width()/2);
+                $(id).fadeIn(2000); 
+                });
+                $('.window .close').click(function (e) { 
+                e.preventDefault();
+                $('#mask, .window').hide();
+                }); 
+                $('#mask').click(function () {
+                $(this).hide();
+                $('.window').hide();
+                }); 
+               });  
+            </script>
+   </body>
+</html>
